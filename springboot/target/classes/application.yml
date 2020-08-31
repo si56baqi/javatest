@@ -1,0 +1,15 @@
+server:
+  port: 8087
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://127.0.0.1:3306/mybatisdb
+    username: root
+    password: root
+mybatis:
+  type-aliases-package: com.si56baqi.pojo
+  mapper-locations: classpath:mappers/*.xml
+logging:
+  level:
+    com.si56baqi.mapper: debug

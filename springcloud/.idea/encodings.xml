@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/consumber-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumber-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jt-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider-user2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sidcar" charset="UTF-8" />
+  </component>
+</project>
