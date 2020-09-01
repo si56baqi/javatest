@@ -17,6 +17,7 @@
         <module>consumer-hystrix</module>
         <module>jt-zuul</module>
         <module>sidcar</module>
+        <module>jt-sso-provider</module>
     </modules>
 
 

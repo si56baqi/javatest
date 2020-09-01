@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/consumber-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jt-sso-provider" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jt-zuul" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider-user" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/provider-user2" charset="UTF-8" />
