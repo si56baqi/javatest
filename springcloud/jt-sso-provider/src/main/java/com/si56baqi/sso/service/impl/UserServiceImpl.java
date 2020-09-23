@@ -6,10 +6,12 @@ import com.si56baqi.common.vo.SysResult;
 import com.si56baqi.sso.mapper.UserMapper;
 import com.si56baqi.sso.pojo.User;
 import com.si56baqi.sso.service.UserService;
+import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 @Service
@@ -42,8 +44,21 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public boolean register(User user) {
-        return false;
+        //密码加密
+        String newpassword = DigestUtils.md5Hex(user.getPassword());
+        user.setPassword(newpassword);
+
+        //判断，如果此用户已经存在，返回不能注册
+        int i = userMapper.check(PARAM_TYPE.get(1), user.getUsername());
+        if(i>0) {	//用户已经存在
+            return false;
+        }else {
+            userMapper.save(user);
+            return true;
+        }
     }
+
+
 
     @Override
     public String login(String userName, String passwd) {
@@ -53,5 +68,10 @@ public class UserServiceImpl implements UserService {
     @Override
     public String queryUserByTicket(String ticket) {
         return null;
+    }
+
+    @Override
+    public List<User> find() {
+        return  userMapper.find();
     }
 }

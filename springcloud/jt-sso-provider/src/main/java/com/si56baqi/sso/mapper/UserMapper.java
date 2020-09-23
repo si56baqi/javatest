@@ -5,6 +5,8 @@ import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 
+import java.util.List;
+
 public interface UserMapper {
     @Select("SELECT COUNT(1) FROM tb_user WHERE ${paramType} = #{param}")
     public Integer check(@Param("param") String param, @Param("paramType") String paramType);
@@ -14,4 +16,6 @@ public interface UserMapper {
 
     @Select("SELECT * FROM tb_user WHERE username = #{userName}")
     public User login(String userName);
+    @Select("SELECT * FROM tb_user")
+    public List<User> find();
 }
