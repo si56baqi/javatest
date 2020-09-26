@@ -1,0 +1,11 @@
+<mapper namespace="user">
+    <select id="selectList" resultType="com.si56baqi.jdbactest.pojo.user">
+        select * from user
+    </select>
+
+
+    <select id="selectOne" resultType="com.si56baqi.jdbactest.pojo.user" parmaterType="com.si56baqi.jdbactest.pojo.user">
+        select * from user where id= #{id} and username= #{username}
+    </select>
+
+</mapper>
