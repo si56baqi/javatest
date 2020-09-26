@@ -21,6 +21,10 @@ public class Cycle {
        int [] a={1,2,3,4,4,5};
         for (int b:a
              ) {
+            if (b==3){
+                //break;
+                continue;
+            }
             System.out.println(b);
         }
     }
