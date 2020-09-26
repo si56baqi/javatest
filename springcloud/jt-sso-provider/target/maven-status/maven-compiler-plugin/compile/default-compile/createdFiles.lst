@@ -1,0 +1,9 @@
+com\si56baqi\common\vo\SysResult.class
+com\si56baqi\RunAppJtSsoProvider.class
+com\si56baqi\sso\service\UserService.class
+com\si56baqi\sso\mapper\UserMapper.class
+com\si56baqi\sso\service\impl\UserServiceImpl.class
+com\si56baqi\pojo\BasePojo.class
+com\si56baqi\common\service\RedisService.class
+com\si56baqi\sso\pojo\User.class
+com\si56baqi\sso\controller\UserController.class

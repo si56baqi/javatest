@@ -1,0 +1,7 @@
+com\common\vo\SysResult.class
+com\si56baqi\FeignRunApp.class
+com\si56baqi\feign\CartFeign.class
+com\si56baqi\controller\HelloController.class
+com\si56baqi\pojo\Cart.class
+com\si56baqi\feign\CartFeignFallback.class
+com\si56baqi\feign\HelloFeign.class
