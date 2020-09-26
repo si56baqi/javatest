@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3a825d4-358e-4c79-9932-dfa13b229418" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/javapor-base/src/secondday/ArrayDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javapor-base/src/secondday/StringDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javapor-base/src/fristday/JavaObject/Cycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/javapor-base/src/fristday/JavaObject/Cycle.java" afterDir="false" />
-    </list>
+    <list default="true" id="b3a825d4-358e-4c79-9932-dfa13b229418" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
@@ -387,6 +382,7 @@
       <workItem from="1599562027088" duration="1124000" />
       <workItem from="1600829604441" duration="12769000" />
       <workItem from="1600932608391" duration="1696000" />
+      <workItem from="1601085711534" duration="204000" />
     </task>
     <task id="LOCAL-00001" summary="sso搭建">
       <created>1598948244270</created>
@@ -423,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600852738573</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="java基础">
+      <created>1601085810195</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601085810195</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -447,7 +450,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53301000" />
+    <option name="totallyTimeSpent" value="53505000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -461,7 +464,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.2322239" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.23600605" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.25718608" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
