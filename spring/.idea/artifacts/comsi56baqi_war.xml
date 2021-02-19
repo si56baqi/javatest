@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="comsi56baqi:war">
+    <output-path>$PROJECT_DIR$/comsi56baqi/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>comsi56baqi</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="com.si56baqi.war">
+      <element id="artifact" artifact-name="comsi56baqi:war exploded" />
+    </root>
+  </artifact>
+</component>

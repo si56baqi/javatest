@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/comsi56baqi/comsi56baqi.iml" filepath="$PROJECT_DIR$/comsi56baqi/comsi56baqi.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring.iml" filepath="$PROJECT_DIR$/.idea/spring.iml" />
     </modules>
   </component>
