@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <c3p0-config>
     <default-config>
         <!-- 配置数据库驱动 -->

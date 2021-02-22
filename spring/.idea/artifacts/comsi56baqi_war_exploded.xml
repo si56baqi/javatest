@@ -17,6 +17,19 @@
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.20" />
           <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.6.1" />
           <element id="library" level="project" name="Maven: c3p0:c3p0:0.9.1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.2.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:5.2.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.2.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.8.RELEASE" />
+          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-api:5.8.0-M1" />
+          <element id="library" level="project" name="Maven: org.apiguardian:apiguardian-api:1.1.1" />
+          <element id="library" level="project" name="Maven: org.opentest4j:opentest4j:1.2.0" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-commons:1.8.0-M1" />
         </element>
       </element>
       <element id="directory" name="META-INF">
