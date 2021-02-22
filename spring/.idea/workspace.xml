@@ -9,6 +9,7 @@
     <list default="true" id="2f3a67ff-43d5-4b46-8462-556e89d6e1a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/C3p0Select.java" beforeDir="false" afterPath="$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/C3p0Select.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/DataSourceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/C3p0DataSourceUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/comsi56baqi/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comsi56baqi/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="900">
               <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
             </state>
           </provider>
@@ -43,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/resources/c3p0-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-100">
+            <state relative-caret-position="275">
               <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
             </state>
           </provider>
@@ -52,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/ExampleDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
+            <state relative-caret-position="1675">
               <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -64,21 +65,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/ExampleDatabaseFindAll.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
+            <state relative-caret-position="550">
               <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/DataSourceUtils.java">
+        <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/C3p0DataSourceUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-264">
+            <state relative-caret-position="100">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/C3p0Select.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="25" column="77" lean-forward="true" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
+            <state relative-caret-position="335">
+              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
+            <state relative-caret-position="500">
               <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
               <folding>
                 <element signature="e#151#152#0" expanded="true" />
@@ -131,7 +130,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/ExampleDatabaseAdd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-354">
+            <state relative-caret-position="275">
               <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -219,8 +218,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,7 +287,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1613811883040" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1613813556778" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Allin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -451,9 +450,9 @@
       <item itemvalue="Application.ExampleDatabase" />
       <item itemvalue="Application.ExampleDatabaseFindAll" />
       <item itemvalue="Application.ExampleDatabaseAdd" />
-      <item itemvalue="Tomcat Server.Tomcat 8.0.227" />
       <item itemvalue="Application.jdbcUtilTest" />
       <item itemvalue="Application.C3p0Select" />
+      <item itemvalue="Tomcat Server.Tomcat 8.0.227" />
     </list>
     <recent_temporary>
       <list>
@@ -479,7 +478,8 @@
       <workItem from="1605148060127" duration="506000" />
       <workItem from="1613697709571" duration="4450000" />
       <workItem from="1613702183111" duration="8906000" />
-      <workItem from="1613784123874" duration="10969000" />
+      <workItem from="1613784123874" duration="12286000" />
+      <workItem from="1613956809456" duration="557000" />
     </task>
     <task id="LOCAL-00001" summary="2021start">
       <created>1613697884886</created>
@@ -509,17 +509,24 @@
       <option name="project" value="LOCAL" />
       <updated>1613810674436</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="c3p0练习">
+      <created>1613811917371</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613811917371</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24878000" />
+    <option name="totallyTimeSpent" value="26752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17927383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18154311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -560,7 +567,8 @@
     <MESSAGE value="2021start" />
     <MESSAGE value="jdbc简单的增删改查" />
     <MESSAGE value="jdbc练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdbc练习" />
+    <MESSAGE value="c3p0练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="c3p0练习" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/HelloPSring/src/main/java/com/si56baqi/Aop/Controller/HelloController.java" />
@@ -621,30 +629,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/resources/db.properties">
+    <entry file="file://$PROJECT_DIR$/comsi56baqi/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="55" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="55" />
+        <state relative-caret-position="900">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/LinkDatabaseInsert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="77" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/resources/c3p0-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
+        <state relative-caret-position="275">
           <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comsi56baqi/pom.xml">
+    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/ExampleDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="1675">
+          <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/ExampleDatabaseFindAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/C3p0DataSourceUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
+        <state relative-caret-position="500">
           <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
           <folding>
             <element signature="e#151#152#0" expanded="true" />
@@ -663,19 +701,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/ExampleDatabase.java">
+    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="25">
+          <caret line="1" column="55" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/ExampleDatabaseAdd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-354">
+        <state relative-caret-position="275">
           <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -683,39 +718,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/ExampleDatabaseFindAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/LinkDatabaseInsert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="77" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/DataSourceUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/C3p0Select.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="25" column="77" lean-forward="true" selection-start-line="25" selection-start-column="77" selection-end-line="25" selection-end-column="77" />
+        <state relative-caret-position="335">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

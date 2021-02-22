@@ -8,7 +8,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class DataSourceUtils {
+public class C3p0DataSourceUtils {
     private static ComboPooledDataSource ds = new ComboPooledDataSource();
 
     /**

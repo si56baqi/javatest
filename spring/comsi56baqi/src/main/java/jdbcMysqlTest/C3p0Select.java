@@ -8,7 +8,7 @@ public class C3p0Select{
         Connection connection=null;
         PreparedStatement preparedStatement=null;
         try {
-            connection=DataSourceUtils.getConnection();
+            connection= C3p0DataSourceUtils.getConnection();
             String sql="insert into student(id,name,age) values(?,?,?)";
             preparedStatement=connection.prepareStatement(sql);
             preparedStatement.setInt(1,33);
@@ -23,7 +23,7 @@ public class C3p0Select{
         } catch (SQLException e) {
             e.printStackTrace();
         }finally {
-            DataSourceUtils.CloseResource(connection,preparedStatement,null);
+            C3p0DataSourceUtils.CloseResource(connection,preparedStatement,null);
         }
 
     }
