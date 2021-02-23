@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/comsi56baqi" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringTests" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -10,6 +11,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/comsi56baqi/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringTests/pom.xml" />
       </list>
     </option>
   </component>
