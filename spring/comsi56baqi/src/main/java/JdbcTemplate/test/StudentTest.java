@@ -1,6 +1,8 @@
 package JdbcTemplate.test;
 
+import JdbcTemplate.dao.JdbcTemplateDao;
 import JdbcTemplate.entity.Student;
+import JdbcTemplate.service.JdbcTemplateService;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -40,6 +42,34 @@ public class StudentTest {
         Student employee = template.queryForObject(sql, rowMapper, 5);
         System.out.println(employee);
     }
-
+    @Test
+    public void test03(){
+        JdbcTemplateDao dao = ioc.getBean(JdbcTemplateDao.class);
+        /*String sql = "INSERT INTO student(id,name,age)VALUES(?,?,?)";
+        dao.update(sql, 2,"比尔盖茨",10);*/
+        dao.update(null,null);
+    }
+    @Test
+    public void test04(){
+        JdbcTemplateService jdbcTemplateService=ioc.getBean(JdbcTemplateService.class);
+        jdbcTemplateService.update(null,null);
+    }
+    @Test
+    public void test05(){
+        JdbcTemplateService jdbcTemplateService=ioc.getBean(JdbcTemplateService.class);
+        jdbcTemplateService.delAccount(34);
+    }
+    @Test
+    public void test06(){
+        JdbcTemplateService jdbcTemplateService=ioc.getBean(JdbcTemplateService.class);
+        Student student=new Student();
+        jdbcTemplateService.addAccount(student);
+    }
+    @Test
+    public void test07(){
+        JdbcTemplateService jdbcTemplateService=ioc.getBean(JdbcTemplateService.class);
+        List<Student> allstu = jdbcTemplateService.allstu();
+        System.out.println(allstu);
+    }
 }
 

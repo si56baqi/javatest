@@ -76,8 +76,7 @@ public class JdbcUtil {
         }
     }
 }
-/**
- * jdbc连接数据库的步骤
+/**jdbc连接数据库的步骤
  * 1.加载驱动
  * Class.forName("")
  *2.建立连接
@@ -100,4 +99,5 @@ public class JdbcUtil {
  *   (1) 提高代码的可维护性和可读性。
  *  （2）提高了SQL语句执行的性能。
  *  （3） 提高了安全性。
+ *
  * */
