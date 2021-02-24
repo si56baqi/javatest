@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="personDao" class="com.si56baqi.ioc.impl.PersonDaoImpl" />
+    <bean id="personService" class="com.si56baqi.ioc.impl.PersonServiceImpl">
+        <!--将personDao注入到personService实例中-->
+        <property name="personDao" ref="personDao"></property>
+    </bean>
+    <bean id="person1" class="com.si56baqi.instance.constructor.Person1"/>
+</beans>
