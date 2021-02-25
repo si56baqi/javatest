@@ -12,7 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="comsi56baqi" target="1.7" />
-      <module name="SpringTests" target="1.5" />
+      <module name="SpringTests" target="6" />
     </bytecodeTargetLevel>
   </component>
 </project>

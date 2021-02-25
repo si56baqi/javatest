@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+    <!-- 使用设值注入方式装配Person实例 -->
+  <bean id="person41" class="com.si56baqi.instance.assembly.Person4">
+        <property name="name" value="张三"></property>
+        <property name="age" value="13"></property>
+    </bean>
+ <!-- 使用构造方法装配Person实例 -->
+    <bean id="person42" class="com.si56baqi.instance.assembly.Person4">
+        <constructor-arg index="0" value="lisi" />
+        <constructor-arg index="1" value="21" />
+    </bean>
+    <context:component-scan base-package="com.si56baqi.instance.annotation"/>
+
+  <!--  <bean id="personDao" class="com.si56baqi.instance.annotation.dao.impl.PsersonDaoImpl" />
+    <bean id="personService" class="com.si56baqi.instance.annotation.service.impl.PersonServiceImpl"
+          autowire="byName" />
+    <bean id="personController" class="com.si56baqi.instance.annotation.controller.PersonController"
+          autowire="byName" />-->
+</beans>

@@ -7,17 +7,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f3a67ff-43d5-4b46-8462-556e89d6e1a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/constructor/Person1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/constructor/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/ioc/PersonDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/ioc/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/ioc/impl/PersonDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/ioc/impl/PersonServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/test/FirstTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/annotation/controller/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/annotation/dao/PersonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/annotation/dao/impl/PsersonDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/annotation/service/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/annotation/service/impl/PersonServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/assembly/Person4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/factory/MyBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/factory/Person3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/mengma/dao/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/mengma/dao/impl/CustomerDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/mengma/jdk/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/mengma/jdk/MyBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/scope/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/static_factory/MyBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/static_factory/Person2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/test/JDKProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringTests/src/main/resources/applicationAutowire.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringTests/SpringTests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringTests/SpringTests.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringTests/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringTests/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringTests/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringTests/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/constructor/Person1.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/constructor/Person1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/constructor/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringTests/src/main/resources/application.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/test/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/test/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringTests/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringTests/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/comsi56baqi/target/" />
     <ignored path="$PROJECT_DIR$/SpringTests/target/" />
@@ -30,41 +44,88 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/ioc/PersonDao.java">
+        <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/test/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/ioc/impl/PersonDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+            <state relative-caret-position="196">
+              <caret line="74" column="24" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="24" />
               <folding>
-                <element signature="e#140#141#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringTests/src/main/resources/applicationContext.xml">
+        <entry file="file://$PROJECT_DIR$/SpringTests/src/main/resources/applicationAutowire.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="100">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/mengma/dao/CustomerDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/mengma/dao/impl/CustomerDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+              <folding>
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#237#238#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/mengma/jdk/MyAspect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="e#94#95#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/mengma/jdk/MyBeanFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#747#1167#0" expanded="true" />
+                <element signature="e#1166#1167#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/test/FirstTest.java">
+        <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/test/JDKProxyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="34" column="66" lean-forward="true" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
+            <state relative-caret-position="450">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,42 +134,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/constructor/Person1.java">
+        <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/annotation/dao/PersonDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="75">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/constructor/applicationContext.xml">
+        <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/annotation/dao/impl/PsersonDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/ioc/PersonService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/ioc/impl/PersonServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#152#153#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringTests/src/main/resources/application.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -120,9 +172,9 @@
       <list>
         <option value="Tag Library Descriptor" />
         <option value="Jsp File" />
-        <option value="Class" />
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -132,17 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/HelloPSring/src/main/webapp/WEB-INF/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/comsi56baqi/src/main/java/mysqlTest/LinkDatabaseInsert.java" />
-        <option value="$PROJECT_DIR$/comsi56baqi/src/main/java/mysqlTest/ExampleDatabase.java" />
-        <option value="$PROJECT_DIR$/comsi56baqi/src/main/java/mysqlTest/ExampleDatabaseFindAll.java" />
-        <option value="$PROJECT_DIR$/comsi56baqi/src/main/java/mysqlTest/ExampleDatabaseAdd.java" />
-        <option value="$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/jdbcUtilTest.java" />
-        <option value="$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/DataSourceUtils.java" />
-        <option value="$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/Student.java" />
-        <option value="$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/C3p0Select.java" />
-        <option value="$PROJECT_DIR$/comsi56baqi/src/main/resources/c3p0-config.xml" />
-        <option value="$PROJECT_DIR$/comsi56baqi/src/main/java/JdbcTemplate/entity/Student.java" />
         <option value="$PROJECT_DIR$/comsi56baqi/pom.xml" />
         <option value="$PROJECT_DIR$/comsi56baqi/src/main/java/JdbcTemplate/dao/StudentDao.java" />
         <option value="$PROJECT_DIR$/comsi56baqi/src/main/java/JdbcTemplate/service/StudentService.java" />
@@ -172,10 +213,28 @@
         <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/ioc/impl/PersonDaoImpl.java" />
         <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/ioc/PersonService.java" />
         <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/ioc/impl/PersonServiceImpl.java" />
-        <option value="$PROJECT_DIR$/SpringTests/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/constructor/applicationContext.xml" />
         <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/constructor/Person1.java" />
+        <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/static_factory/MyBeanFactory.java" />
+        <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/factory/MyBeanFactory.java" />
+        <option value="$PROJECT_DIR$/SpringTests/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/assembly/Person4.java" />
+        <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/annotation/PersonDao.java" />
+        <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/annotation/PsersonDaoImpl.java" />
+        <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/annotation/dao/PsersonDaoImpl.java" />
+        <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/annotation/service/PersonService.java" />
+        <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/annotation/controller/PersonController.java" />
+        <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/annotation/service/impl/PersonServiceImpl.java" />
+        <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/annotation/dao/impl/PsersonDaoImpl.java" />
+        <option value="$PROJECT_DIR$/SpringTests/src/main/resources/application.xml" />
         <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/test/FirstTest.java" />
+        <option value="$PROJECT_DIR$/SpringTests/src/main/resources/applicationAutowire.xml" />
+        <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/mengma/CustomerDao.java" />
+        <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/mengma/dao/CustomerDao.java" />
+        <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/mengma/dao/impl/CustomerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/mengma/jdk/MyAspect.java" />
+        <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/mengma/jdk/MyBeanFactory.java" />
+        <option value="$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/test/JDKProxyTest.java" />
       </list>
     </option>
   </component>
@@ -305,7 +364,33 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="si56baqi" type="462c0819:PsiDirectoryNode" />
               <item name="instance" type="462c0819:PsiDirectoryNode" />
-              <item name="constructor" type="462c0819:PsiDirectoryNode" />
+              <item name="mengma" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="si56baqi" type="462c0819:PsiDirectoryNode" />
+              <item name="instance" type="462c0819:PsiDirectoryNode" />
+              <item name="mengma" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringTests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="si56baqi" type="462c0819:PsiDirectoryNode" />
+              <item name="instance" type="462c0819:PsiDirectoryNode" />
+              <item name="mengma" type="462c0819:PsiDirectoryNode" />
+              <item name="jdk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring" type="b2602c69:ProjectViewProjectNode" />
@@ -353,17 +438,21 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614162479192" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614249984939" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Allin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\javawork\git_repository\javatest\spring\SpringTests\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.si56baqi.instance.factory" />
       <recent name="springTest" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -382,20 +471,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FirstTest.test03">
-    <configuration name="SpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="springTest.SpringApplication" />
-      <module name="comsi56baqi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="springTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.JDKProxyTest.test">
     <configuration name="FirstTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringTests" />
       <extension name="coverage">
@@ -412,7 +488,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest.test07" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringTests" />
       <extension name="coverage">
         <pattern>
@@ -422,13 +498,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.si56baqi.test" />
       <option name="MAIN_CLASS_NAME" value="com.si56baqi.test.FirstTest" />
-      <option name="METHOD_NAME" value="test02" />
+      <option name="METHOD_NAME" value="test07" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstTest.test08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringTests" />
       <extension name="coverage">
         <pattern>
@@ -438,23 +514,39 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.si56baqi.test" />
       <option name="MAIN_CLASS_NAME" value="com.si56baqi.test.FirstTest" />
-      <option name="METHOD_NAME" value="test03" />
+      <option name="METHOD_NAME" value="test08" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringApplicationTest.find" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="comsi56baqi" />
+    <configuration name="FirstTest.test09" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringTests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="springTest.test.*" />
+          <option name="PATTERN" value="com.si56baqi.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="springTest.test" />
-      <option name="MAIN_CLASS_NAME" value="springTest.test.SpringApplicationTest" />
-      <option name="METHOD_NAME" value="find" />
+      <option name="PACKAGE_NAME" value="com.si56baqi.test" />
+      <option name="MAIN_CLASS_NAME" value="com.si56baqi.test.FirstTest" />
+      <option name="METHOD_NAME" value="test09" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDKProxyTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringTests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.si56baqi.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.si56baqi.test" />
+      <option name="MAIN_CLASS_NAME" value="com.si56baqi.test.JDKProxyTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -534,22 +626,25 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SpringApplication" />
-      <item itemvalue="JUnit.SpringApplicationTest.find" />
       <item itemvalue="Tomcat Server.Tomcat 8.5.63" />
       <item itemvalue="JUnit.FirstTest.test01" />
-      <item itemvalue="JUnit.FirstTest.test02" />
-      <item itemvalue="JUnit.FirstTest.test03" />
+      <item itemvalue="JUnit.FirstTest.test07" />
+      <item itemvalue="JUnit.FirstTest.test08" />
+      <item itemvalue="JUnit.FirstTest.test09" />
+      <item itemvalue="JUnit.JDKProxyTest.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FirstTest.test03" />
-        <item itemvalue="JUnit.FirstTest.test02" />
+        <item itemvalue="JUnit.JDKProxyTest.test" />
+        <item itemvalue="JUnit.FirstTest.test09" />
+        <item itemvalue="JUnit.FirstTest.test08" />
+        <item itemvalue="JUnit.FirstTest.test07" />
         <item itemvalue="JUnit.FirstTest.test01" />
-        <item itemvalue="Application.SpringApplication" />
-        <item itemvalue="JUnit.SpringApplicationTest.find" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -568,7 +663,8 @@
       <workItem from="1613784123874" duration="12286000" />
       <workItem from="1613956809456" duration="19049000" />
       <workItem from="1614045478607" duration="15489000" />
-      <workItem from="1614130014690" duration="5306000" />
+      <workItem from="1614130014690" duration="6100000" />
+      <workItem from="1614218650424" duration="14292000" />
     </task>
     <task id="LOCAL-00001" summary="2021start">
       <created>1613697884886</created>
@@ -633,49 +729,56 @@
       <option name="project" value="LOCAL" />
       <updated>1614075345923</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="spring初始化">
+      <created>1614162605536</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614162605536</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpringApplicationTest_find - 2021.02.23 at 16h 14m 29s.xml">
-      <configuration name="SpringApplicationTest.find" configurationId="JUnit" />
+    <history-entry file="FirstTest_test08 - 2021.02.25 at 17h 23m 06s.xml">
+      <configuration name="FirstTest.test08" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringApplicationTest_find - 2021.02.23 at 16h 14m 57s.xml">
-      <configuration name="SpringApplicationTest.find" configurationId="JUnit" />
+    <history-entry file="FirstTest_test08 - 2021.02.25 at 17h 23m 57s.xml">
+      <configuration name="FirstTest.test08" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringApplicationTest_find - 2021.02.23 at 16h 15m 15s.xml">
-      <configuration name="SpringApplicationTest.find" configurationId="JUnit" />
+    <history-entry file="FirstTest_test09 - 2021.02.25 at 17h 26m 14s.xml">
+      <configuration name="FirstTest.test09" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringApplicationTest_find - 2021.02.23 at 16h 16m 30s.xml">
-      <configuration name="SpringApplicationTest.find" configurationId="JUnit" />
+    <history-entry file="FirstTest_test09 - 2021.02.25 at 17h 30m 23s.xml">
+      <configuration name="FirstTest.test09" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringApplicationTest_find - 2021.02.23 at 16h 17m 18s.xml">
-      <configuration name="SpringApplicationTest.find" configurationId="JUnit" />
+    <history-entry file="FirstTest_test09 - 2021.02.25 at 17h 30m 56s.xml">
+      <configuration name="FirstTest.test09" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringApplicationTest_find - 2021.02.23 at 16h 17m 39s.xml">
-      <configuration name="SpringApplicationTest.find" configurationId="JUnit" />
+    <history-entry file="FirstTest_test08 - 2021.02.25 at 17h 33m 36s.xml">
+      <configuration name="FirstTest.test08" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringApplicationTest_find - 2021.02.23 at 16h 18m 00s.xml">
-      <configuration name="SpringApplicationTest.find" configurationId="JUnit" />
+    <history-entry file="FirstTest_test09 - 2021.02.25 at 17h 33m 50s.xml">
+      <configuration name="FirstTest.test09" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SpringApplicationTest_find - 2021.02.23 at 16h 18m 28s.xml">
-      <configuration name="SpringApplicationTest.find" configurationId="JUnit" />
+    <history-entry file="FirstTest_test09 - 2021.02.25 at 17h 36m 31s.xml">
+      <configuration name="FirstTest.test09" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_test01 - 2021.02.24 at 10h 34m 17s.xml">
-      <configuration name="FirstTest.test01" configurationId="JUnit" />
+    <history-entry file="FirstTest_test09 - 2021.02.25 at 17h 37m 20s.xml">
+      <configuration name="FirstTest.test09" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FirstTest_test02 - 2021.02.24 at 10h 49m 54s.xml">
-      <configuration name="FirstTest.test02" configurationId="JUnit" />
+    <history-entry file="JDKProxyTest_test - 2021.02.25 at 18h 31m 14s.xml">
+      <configuration name="JDKProxyTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66039000" />
+    <option name="totallyTimeSpent" value="81125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21860817" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22163388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -721,108 +824,10 @@
     <MESSAGE value="jdbcTemplate测试" />
     <MESSAGE value="jdbcTemplate增删改查结束" />
     <MESSAGE value="搭建spring的maven项目测试jsp页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="搭建spring的maven项目测试jsp页面" />
+    <MESSAGE value="spring初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring初始化" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Allin/src/main/test/test.java" />
-    <entry file="file://$PROJECT_DIR$/Allin/src/main/test/TestRedisPipe.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4900">
-          <caret line="263" column="33" selection-start-line="263" selection-start-column="24" selection-end-line="263" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="380" selection-start-line="380" selection-end-line="380" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/LinkDatabaseInsert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="77" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/ExampleDatabaseFindAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/ExampleDatabaseAdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/resources/c3p0-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-429">
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/javainstall/MavenRepository/org/springframework/spring-jdbc/5.2.8.RELEASE/spring-jdbc-5.2.8.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/JdbcTemplate/dao/StudentDao.java" />
-    <entry file="jar://D:/javainstall/MavenRepository/org/springframework/spring-context/5.2.8.RELEASE/spring-context-5.2.8.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="812" selection-start-line="812" selection-end-line="812" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/javainstall/MavenRepository/org/junit/platform/junit-platform-commons/1.8.0-M1/junit-platform-commons-1.8.0-M1.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="365" selection-start-line="365" selection-end-line="365" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/JdbcTemplate/service/StudentService.java" />
-    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/JdbcTemplate/service/impl/StudentServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/JdbcTemplate/dao/impl/StudentDaoImpl.java" />
-    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/JdbcTemplate/entity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/C3p0DataSourceUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1690">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comsi56baqi/src/main/java/jdbcMysqlTest/C3p0Select.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -996,27 +1001,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringTests/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="69" column="45" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="110" selection-start-line="4" selection-start-column="110" selection-end-line="4" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/constructor/applicationContext.xml" />
     <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/ioc/PersonDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1026,7 +1011,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/ioc/impl/PersonDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="125">
           <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
           <folding>
             <element signature="e#140#141#0" expanded="true" />
@@ -1044,41 +1029,239 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/ioc/impl/PersonServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="325">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="110" selection-start-line="4" selection-start-column="110" selection-end-line="4" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/constructor/Person1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/static_factory/Person2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/static_factory/MyBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/scope/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/factory/Person3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/factory/MyBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringTests/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="368">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/constructor/Person1.java">
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/assembly/Person4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="150">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/constructor/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/SpringTests/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="69" column="45" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/annotation/controller/PersonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/annotation/service/PersonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/annotation/service/impl/PersonServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/annotation/dao/PersonDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/annotation/dao/impl/PsersonDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/resources/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/test/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="34" column="66" lean-forward="true" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
+        <state relative-caret-position="196">
+          <caret line="74" column="24" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/resources/applicationAutowire.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/mengma/dao/CustomerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/mengma/dao/impl/CustomerDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/mengma/jdk/MyAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#94#95#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/instance/mengma/jdk/MyBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#747#1167#0" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringTests/src/main/java/com/si56baqi/test/JDKProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

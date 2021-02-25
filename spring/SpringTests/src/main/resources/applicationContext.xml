@@ -7,5 +7,19 @@
         <!--将personDao注入到personService实例中-->
         <property name="personDao" ref="personDao"></property>
     </bean>
+    <!--构造器实例化 构造器实例化是指 Spring 容器通过 Bean 对应的类中默认的构造函数实例化 Bean。-->
     <bean id="person1" class="com.si56baqi.instance.constructor.Person1"/>
+    <!--定义了一个 id 为 person2 的 Bean，其中 class 属性指定了其对应的工厂实现类为 MyBeanFactory，
+    而 factory-method 属性用于告诉 Spring 容器调用工厂类中的 createBean() 方法获取 Bean 的实例。-->
+
+    <bean id="person2" class="com.si56baqi.instance.static_factory.MyBeanFactory"  factory-method="createBean"></bean>
+
+    <!--配置实例工厂-->
+    <bean id="myBeanFactory" class="com.si56baqi.instance.factory.MyBeanFactory"></bean>
+    <!-- factory-bean属性指定一个实例工厂，factory-method属性确定使用工厂中的哪个方法 -->
+    <bean id="person3" factory-bean="myBeanFactory" factory-method="createBean"/>
+    <!--singleton 作用域
+    <bean id="person" class="com.si56baqi.instance.scope.Person" scope="singleton"/>
+    -->
+    <bean id="person" class="com.si56baqi.instance.scope.Person" scope="prototype"/>
 </beans>
