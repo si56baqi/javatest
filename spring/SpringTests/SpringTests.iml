@@ -17,6 +17,11 @@
           <file>file://$MODULE_DIR$/src/main/resources/applicationContext.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/application.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/applicationAutowire.xml</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/si56baqi/instance/mengma/factorybean/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/factorybean.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/AspectJ.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/c3p0-db.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/annotation.xml</file>
         </fileset>
         <fileset id="fileset2" name="ApplicationContext (2)" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/com/si56baqi/instance/constructor/applicationContext.xml</file>
@@ -49,6 +54,8 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.2.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.2.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.2.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aspects:5.2.13.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.9.6" level="project" />
     <orderEntry type="library" name="Maven: org.junit.jupiter:junit-jupiter-api:5.8.0-M1" level="project" />
     <orderEntry type="library" name="Maven: org.apiguardian:apiguardian-api:1.1.1" level="project" />
     <orderEntry type="library" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />

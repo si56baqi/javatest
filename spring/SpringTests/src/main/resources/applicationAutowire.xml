@@ -3,8 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
     <!--Spring自动装配Bean   test09()-->
-    <bean id="personDao" class="com.si56baqi.instance.annotation.dao.impl.PsersonDaoImpl"
-          autowire="byName"  />
+    <bean id="personDao" class="com.si56baqi.instance.annotation.dao.impl.PsersonDaoImpl"/>
     <bean id="personService" class="com.si56baqi.instance.annotation.service.impl.PersonServiceImpl"
           autowire="byName" />
     <bean id="personController" class="com.si56baqi.instance.annotation.controller.PersonController"
