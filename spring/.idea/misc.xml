@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/comsi56baqi" />
     <file type="web" url="file://$PROJECT_DIR$/SpringTests" />
+    <file type="web" url="file://$PROJECT_DIR$/ssm" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -13,6 +14,11 @@
         <option value="$PROJECT_DIR$/comsi56baqi/pom.xml" />
         <option value="$PROJECT_DIR$/SpringTests/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/ssm/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />

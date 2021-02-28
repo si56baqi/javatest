@@ -1,0 +1,6 @@
+org.springframework.beans.factory.UnsatisfiedDependencyException:
+Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService';
+ nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException:
+ No qualifying bean of type 'com.si56baqi.ssm.service.UserService' available:
+ expected at least 1 bean which qualifies as autowire candidate. Dependency annotations:
+ {@org.springframework.beans.factory.annotation.Autowired(required=true)}

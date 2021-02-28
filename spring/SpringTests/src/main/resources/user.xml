@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+    <!--配置数据源 -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+    <property name="driverClass" value="${jdbc.driverClass}"/>
+    <property name="jdbcUrl" value="${jdbc.jdbcUrl}"/>
+    <property name="user" value="${jdbc.user}"/>
+    <property name="password" value="${jdbc.password}"/>
+</bean>
+    <!-- 添加事务支持 -->
+    <bean id="txManager"
+          class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+    <!-- 开启事务注解 -->
+    <tx:annotation-driven transaction-manager="txManager" />
+    <!-- 配置mybitas工厂，同时指定数据源，并与MyBatis完美整合 -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <!-- configLocation的属性值为Mybatis的核心配置文件 -->
+        <property name="configLocation" value="classpath:mybatis-config.xml" />
+    </bean>
+    <!-- Mapper代理开发，使用Spring自动扫描Mybatis的接口并装配 -->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- mybatis-spring组件的扫描器 -->
+       <!-- <property name="basePackage" value="com.si56baqi.ssm.dao" />-->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
+    </bean>
+    <!-- 指定需要扫描的包（包括子包），使注解生效。dao包在mybatis-spring组件中已经扫描，这里不在需要扫描 -->
+    <!--<context:component-scan base-package="com.si56baqi.ssm.service" />-->
+</beans>
+

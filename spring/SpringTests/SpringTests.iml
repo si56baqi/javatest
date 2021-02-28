@@ -22,6 +22,7 @@
           <file>file://$MODULE_DIR$/src/main/resources/AspectJ.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/c3p0-db.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/annotation.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/user.xml</file>
         </fileset>
         <fileset id="fileset2" name="ApplicationContext (2)" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/com/si56baqi/instance/constructor/applicationContext.xml</file>
@@ -62,5 +63,8 @@
     <orderEntry type="library" name="Maven: org.junit.platform:junit-platform-commons:1.8.0-M1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:5.2.8.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:5.2.8.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.5.2" level="project" />
+    <orderEntry type="library" name="Maven: org.mybatis:mybatis-spring:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
   </component>
 </module>
